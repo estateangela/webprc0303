@@ -26,8 +26,8 @@ header ul {
     position:absolute;
     right: 10vw;
     left: 20vw;
-    top: 65px;
-    line-height:750px;
+    top: 25vh;
+    line-height:50vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:medium;
     font-kerning: normal;
@@ -43,10 +43,26 @@ header a {
 }
 a:hover {
     background-color: #ddd;
-    color: black;
+    color: whitesmoke;
   }
 .menu {
     display:none;
+}
+
+footer {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:absolute;
+    background-color:#000000;
+    color:#ee81d2;
+    text-decoration: underline yellow;
+    height:100px;
+    width: 100%;
+    top: 90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);;
 }
 
 /* 響應式設計語法 */
