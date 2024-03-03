@@ -5,7 +5,7 @@
 
 header {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    height: 50%;
+    height: 60%;
     width:100%;
     position:fixed;    
 }
@@ -22,6 +22,24 @@ h1 {
     height: 100%;
     text-indent: -9999px; 
 }
+header ul {
+    position:absolute;
+    right:25%;
+    top: 60px;
+    line-height:750px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-kerning: normal;
+}
+header li {
+    display:inline;
+    margin-left:100px;
+
+}
+header a {
+    color:#ee81d2;
+    text-decoration:overline yellow;
+}
 .menu {
     display:none;
 }
@@ -32,15 +50,22 @@ h1 {
         height: 20%;
     }
     h1 {
-        top: 10vw;
+        top: 75px;
         text-indent:100px;
         background-image:none;
         font-family:serif;
         font-kerning:normal;
-        font-weight:bolder;
-        font-feature-settings:"abvs";
-
-       
+        font-weight:bolder;    
+        text-decoration: underline #ee81d2;
+        text-decoration-thickness: 10px;
+        
+    }
+    header ul {
+        display:none;
+    }
+    header h1 {
+        left:50%;
+        transform: translateX(-50%);
     }
     .menu {
         display:block;
