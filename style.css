@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    height: 50%;
+    width:100%;
+    position:fixed;    
+}
+h1 {
+    color:yellow;
+    position:absolute;
+    left: 10px;
+    top: 10px;
+    line-height: 10px;
+    background-image:url(IMG/EAN.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px; 
+}
+.menu {
+    display:none;
+}
+
+/* 響應式設計語法 */
+@media screen and (max-width: 768px) {
+    header {
+        height: 20%;
+    }
+    h1 {
+        top: 10vw;
+        text-indent:100px;
+        background-image:none;
+        font-family:serif;
+        font-kerning:normal;
+        font-weight:bolder;
+        font-feature-settings:"abvs";
+
+       
+    }
+    .menu {
+        display:block;
+        background-color: transparent;
+        color:white;
+        font-size: 35px;
+        position:absolute;
+        top:15px;
+        left:20px;
+        border:none;
+        cursor: pointer;
+    }
+}
