@@ -24,22 +24,27 @@ h1 {
 }
 header ul {
     position:absolute;
-    right:25%;
-    top: 60px;
+    right: 10vw;
+    left: 20vw;
+    top: 65px;
     line-height:750px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
+    font-weight:medium;
     font-kerning: normal;
 }
 header li {
     display:inline;
-    margin-left:100px;
+    margin:6vw;
 
 }
 header a {
     color:#ee81d2;
     text-decoration:overline yellow;
 }
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 .menu {
     display:none;
 }
