@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .top {
@@ -15,6 +16,10 @@
     flex-direction:column;
     align-items: center;
     justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #474644;
+    text-decoration: none;
     
 }
 header {
@@ -45,6 +50,9 @@ ul { /* 取消ul預設的內縮及樣式 */
 }
 header ul {
     border: 0.5px solid;
+    border-spacing: 2px;
+    margin: 10px;
+    padding: 5px;
     left: 80px;
     position:fixed;
     top: 150px;;
@@ -70,7 +78,7 @@ a:hover {
 .menu {
     display:none;
 }
-.div {
+.div page-loader {
     display:inline;
    top: 500px;
 }
