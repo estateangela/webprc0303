@@ -92,13 +92,33 @@ ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變�
 }
 
 ul.drop-down-menu ul {
-    border: white 1px;
+    border: #ccc 1px solid;
     position: absolute;
-    width: 100%;
     z-index: 99;
     left: -1px;
     top: 100%;
    min-width: 180px;
+}
+
+ul.drop-down-menu ul li {
+    border-bottom: #ccc 1px solid;
+}
+
+ul.drop-down-menu ul li:last-child {
+    border-bottom: none;
+}
+
+ul.drop-down-menu ul ul { /*第三層以後的選單出現位置與第二層不同*/
+    z-index: 999;
+    top: 10px;
+    left: 90%;
+}
+ul.drop-down-menu ul { /*隱藏次選單*/
+    display: none;
+}
+
+ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+    display: block;
 }
 
 /*-------------------*/
