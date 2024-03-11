@@ -251,6 +251,7 @@ table th {
     font-size: 3rem !important;
 }
 
+
 @media screen and (max-width: 767px) {
     .is-size-1-mobile {
         font-size: 3rem !important;
